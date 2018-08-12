@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test>
+    <Intrebare nr="1" categorie="Geografie">
+        <imagine>Vecinii_Romaniei_sunt.jpg</imagine>
+        <textIntrebare>Vecinii României sunt:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Ucraina (N); Rep. Moldova (E); Bulgaria (S); Serbia (SV); Ungaria (NV).</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Bulgaria (N); Rep. Moldova (V); Ucraina (S); Serbia (SV); Ungaria (NV).</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Ucraina (S); Serbia (SV); Ungaria (NV).</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Ucraina (N); Rep. Moldova (E); Bulgaria (S);</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="2" categorie="Geografie">
+        <imagine>Sulina.jpg</imagine>
+        <textIntrebare>Cel mai estic punct al hartii Romaniei este:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Sfântu Gheorghe</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Sulina</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Mila 23</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Murighiol</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="3" categorie="Geografie">
+        <imagine>Cea_mai_mare_parte_din_suprafata_tarii_este_ocupata.jpg</imagine>
+        <textIntrebare>Cea mai mare parte din suprafata tarii este ocupata de:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Munți</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Câmpii</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Dealuri și podișuri</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Ape</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="4" categorie="Geografie">
+        <imagine>Punctul_cel_mai_nordic.jpg</imagine>
+        <textIntrebare>Cel mai nordic punct al hartii Romaniei este:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Dabuleni</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Beba Veche</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Radauti</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Horodistea</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+    <Intrebare nr="5" categorie="Geografie">
+        <imagine>Care_este_cea_mai_lunga_pestera_din_tara.jpg</imagine>
+        <textIntrebare>Care este cea mai lunga pestera din tara?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Pestera Liliecilor</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Pestera Muierii</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Pestera Ursilor</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Pestera Vantului</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+    <Intrebare nr="6" categorie="Geografie">
+        <imagine>Cel_mai_inalt_pas_trecatoare_din_tara_este.jpg</imagine>
+        <textIntrebare>Cel mai inalt pas/trecatoare din tara este?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Pasul Vartop</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Pasul Urdele</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Pasul Tarnita</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Pasul Tihuta</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="7" categorie="Geografie">
+        <imagine>Cel_mai_lung_rau_din_Romania_este.png</imagine>
+        <textIntrebare>Cel mai lung rau din Romania este:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Dunărea</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Oltul</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Mureșul</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Siretul</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="8" categorie="Geografie">
+        <imagine>Cel_mai_inalt_varf_din_Romania.jpg</imagine>
+        <textIntrebare>Cel mai inalt varf din Romania este?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Varful Moldoveanu</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Varful Parangul Mare</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Varful Negoiu</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Varful Omu</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="9" categorie="Geografie">
+        <imagine>Cel_mai_mare_lac_glaciar_din_Romania.jpg</imagine>
+        <textIntrebare>Cel mai mare lac glaciar din Romania?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Lacul Iezer</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Lacul Bucura</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Lacul Avrig</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Lacul Balea</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="10" categorie="Geografie">
+        <imagine>dunarea.png</imagine>
+        <textIntrebare>Dunărea este ..... fluviu din Europa:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>primul</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>al doilea</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>al treilea</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>al patrulea</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+</Test>

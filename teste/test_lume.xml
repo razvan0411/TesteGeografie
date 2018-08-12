@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test>
+
+    <Intrebare nr="1" categorie="Geografie">
+        <imagine>earth_america_sud.jpg</imagine>
+        <textIntrebare>Ce continent este acesta?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Rusia</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Australia</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>America de Sud</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Europa</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="2" categorie="Geografie">
+        <imagine>Cea_mai_populata_tara_din_lume_este.jpg</imagine>
+        <textIntrebare>Cea mai populată țară din lume este:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>India</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>SUA</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>China</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Indonezia</element>
+        </Raspuns4>
+        <Corect>3</Corect>      
+    </Intrebare>
+
+    <Intrebare nr="3" categorie="Geografie">
+        <imagine>harta_lume_oceanul_indian.jpg</imagine>
+        <textIntrebare>Ce ocean este acesta?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Atlantic</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Pacific</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Indian</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>African</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="4" categorie="Geografie">
+        <imagine>marea_filipinelor.PNG</imagine>
+        <textIntrebare>Care este cea mai întinsă mare din lume?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Marea Caraibilor</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Marea Coralilor</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Marea Mediterană</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Marea Filipinelor</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+    <Intrebare nr="5" categorie="Geografie">
+        <imagine>desertul_sahara.PNG</imagine>
+        <textIntrebare>Cel mai întins deșert non-polar de pe glob este:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Gobi</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Sahara</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Kalahari</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Deșertul Sirian</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="6" categorie="Geografie">
+        <imagine>finlanda.jpg</imagine>
+        <textIntrebare>Este supranumită „țara celor o mie de lacuri”:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Finlanda</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Suedia</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Norvegia</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Danemarca</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="7" categorie="Geografie">
+        <imagine>dunarea.png</imagine>
+        <textIntrebare>Câte țări traversează Dunărea?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>12</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>8</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>11</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>10</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="8" categorie="Geografie">
+        <imagine>world-countries-highlighted.gif</imagine>
+        <textIntrebare>După Rusia, țara cu cea mai mare suprafață de pe Pământ este:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>China</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>SUA</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Canada</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Brazilia</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="9" categorie="Geografie">
+        <imagine>insula.jpg</imagine>
+        <textIntrebare>Care este cea mai mare insulă din lume?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Groenlanda</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Madagascar</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Borneo</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Australia</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+
+    <Intrebare nr="10" categorie="Geografie">
+        <imagine>muntii_anzi.jpg</imagine>
+        <textIntrebare>Care este cel mai mare lant muntos din lume?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Munții Himalaya</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Munții Ural</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Munții Alpi</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Munții Anzi</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+</Test>

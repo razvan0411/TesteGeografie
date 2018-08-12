@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test>
+    <Intrebare nr="1" categorie="Geografie">
+        <imagine>Cate_judete_sunt_in_Romania.jpg</imagine>
+        <textIntrebare>Cate judete sunt in Romania?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>45</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>41</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>39</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>42</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="2" categorie="Geografie">
+        <imagine>Care_este_cea_mai_mare_termoncentrala_din_Romania.jpg</imagine>
+        <textIntrebare>Care este cea mai mare termoncentrala din Romania?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Turceni</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Craiova</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Brazi</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Rovinari</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="3" categorie="Geografie">
+        <imagine>Salina_cea_mai_vizitata_din_tara_este.jpg</imagine>
+        <textIntrebare>Salina cea mai vizitata din tara este?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Salina de la Ocnele Mare</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Salina de la Targu Ocna</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Salina Cacica</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Salina Praid</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+    <Intrebare nr="4" categorie="Geografie">
+        <imagine>Gazul_metan_se_intalneste_in_principal_in.jpg</imagine>
+        <textIntrebare>Gazul metan se intalneste in principal in?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Dealurile de Vest</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Depresiunea Transilvaniei</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Campia Romana</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Muntii Dobrogei</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="5" categorie="Geografie">
+        <imagine>Pe_raul_Lotru_se_afla_barajul.jpg</imagine>
+        <textIntrebare>Pe raul Lotru se afla barajul?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Vidra</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Portile de Fier</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Gura Raului</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Colibita</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="6" categorie="Geografie">
+        <imagine>Ce_rau_are_cele_mai_multe_amenajari_hidroenergetice.jpg</imagine>
+        <textIntrebare>Ce rau are cele mai multe amenajari hidroenergetice?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Siret</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Olt</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Mures</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Arges</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="7" categorie="Geografie">
+        <imagine>Defileului_Dunarii,_cel_mai_mare_defileu_din_Europa,_este_cuprins_intre_localitatile.jpg</imagine>
+        <textIntrebare>Defileului Dunarii, cel mai mare defileu din Europa, este cuprins intre localitatile?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Toplita si Deda</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Bumbesti si Livezeni</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Razoare si Remetea Chioarului</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Bazias</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+</Test>

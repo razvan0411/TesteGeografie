@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test>
+    <Intrebare nr="1" categorie="Geografie">
+        <imagine>p_935_600x0-00-90.jpg</imagine>
+        <textIntrebare>Cum se numesc cele trei unitati morfotectonice ale Carpatilor in Romania?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Carpatii Occidentali, Carpatii Meridionali, Carpatii Orientali</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Carpatii Getici, Carpatii Valahi, Carpatii Molodenesti</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Carpatii Mari, Carpatii Mici, Carpatii de Mijloc</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Nici una din variante</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="2" categorie="Geografie">
+        <imagine />
+        <textIntrebare>Care este cea mai mica tara din lume?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Monaco</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Andorra</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Vatican</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Laos</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="3" categorie="Geografie">
+        <imagine />
+        <textIntrebare>Care este cea mai populata tara din lume?</textIntrebare>
+        <Raspuns1>
+            <tipElement>imagine</tipElement>
+            <element>p_4801_300x240-10-90.jpg</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>imagine</tipElement>
+            <element>p_4802_300x240-10-90.jpg</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>imagine</tipElement>
+            <element>p_4803_300x240-10-90.jpg</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>imagine</tipElement>
+            <element>p_4804_300x240-10-90.jpg</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="4" categorie="Geografie">
+        <imagine />
+        <textIntrebare>Care este cel mai inalt varf muntos din Romania?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Platoul Bucegi</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Varful Negoiu</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Lacul Balea</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Varful Moldovanu</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+    
+    <Intrebare nr="5" categorie="Geografie">
+        <imagine>p_939_600x0-00-90.jpg</imagine>
+        <textIntrebare>In ce tara poate fi intalnit acest monument?</textIntrebare>
+        <Raspuns1>
+            <tipElement>imagine</tipElement>
+            <element>p_4810_300x240-10-90.jpg</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>imagine</tipElement>
+            <element>p_4811_300x240-10-90.jpg</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>imagine</tipElement>
+            <element>p_4812_300x240-10-90.jpg</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>imagine</tipElement>
+            <element>p_4813_300x240-10-90.jpg</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+    
+    <Intrebare nr="6" categorie="Geografie">
+        <imagine />
+        <textIntrebare>Ce tara este supranumita "Darul Nilului"?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Camerun</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Egipt</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Nigeria</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Gabon</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+    
+    <Intrebare nr="7" categorie="Geografie">
+        <imagine>p_938_600x0-00-90.jpg</imagine>
+        <textIntrebare>Aceasta este Peninsula...</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Iberica</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Balcanica</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Scandinava</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Spaniola</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+    
+    <Intrebare nr="8" categorie="Geografie">
+        <imagine />
+        <textIntrebare>Care este tara Soarelui-Rasare?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Vietnam</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>China</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Japonia</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Sri Lanka</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+    
+    
+    <Intrebare nr="9" categorie="Geografie">
+        <imagine>p_947_600x0-00-90.jpg</imagine>
+        <textIntrebare>Capul Bunei Sperante se afla in...</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Italia</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Grecia</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Argentina</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Africa de Sud</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+    
+    <Intrebare nr="10" categorie="Geografie">
+        <imagine />
+        <textIntrebare>Unde se afla muntii Ural?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>In Ucraina</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>In Rusia</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>In Bulgaria</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>In Moldova</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+    
+    
+</Test>

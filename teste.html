@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="stil.css" />
+        <meta charset="UTF-8"> 
+    </head>   
+
+    <body>
+
+        <script>
+            var xmlHTTP = new XMLHttpRequest();
+            function loadXML(){
+                //var xmlHTTP = new XMLHttpRequest();
+                xmlHTTP.onreadystatechange = function(){
+                    if(this.readyState == 4 && this.status == 200)
+                        intrebare(this, nrIntrebare);
+                }
+                //xmlHTTP.open("GET", "Intrebari.xml", true);
+                xmlHTTP.open("GET", "teste//" + document.getElementById('fileChooser').value.split('\\').pop(), true);
+                xmlHTTP.send();
+
+            }
+
+            var parser, xmlDoc, nrIntrebare, raspuns, raspunsuriCorecte;
+            var raspunsuri = new Array();
+
+            function intrebare(xml, indice){
+                var i, formular, xmlDoc;
+                xmlDoc = xml.responseXML;
+                var x =xmlDoc.getElementsByTagName("Intrebare");
+                //console.log("lungine " + x.length);
+                if(nrIntrebare < x.length){
+                    formular = '<form><div style="text-align:center;">';
+                    //document.write("-------------------<br/>");
+                    if(xmlDoc.getElementsByTagName("imagine")[indice].childNodes[0] != null){
+                        formular += "<img src=\"imagini\\";
+                        formular += xmlDoc.getElementsByTagName("imagine")[indice].childNodes[0].nodeValue;
+                        formular += "\" width=\"500\" height=\"300\"><br>";
+                    }
+
+                    formular += "<label id=\"textIntrebare\" style>" + xmlDoc.getElementsByTagName("textIntrebare")[indice].childNodes[0].nodeValue + "</label><br><br>";
+                    for(i = 4*indice; i <= 4*indice+3; i++){                   
+                        if(xmlDoc.getElementsByTagName("tipElement")[i].childNodes[0].nodeValue == "imagine"){
+                            formular += "<button name=\"buton\" type=\"button\" onclick=\"validare(" + (i%4 + 1)  + ")\"><img style=\"width:16em\" src=\"imagini\\" + xmlDoc.getElementsByTagName("element")[i].childNodes[0].nodeValue + "\"></button>";
+                            //document.write("imagine " + xmlDoc.getElementsByTagName("element")[i].childNodes[0].nodeValue + "<br />");
+                        }
+                        else{
+                            formular += "<button name=\"buton\" type=\"button\" onclick=\"validare(" + (i%4 + 1) + ")\">" + xmlDoc.getElementsByTagName("element")[i].childNodes[0].nodeValue +"</button>";
+                            //document.write(xmlDoc.getElementsByTagName("element")[i].childNodes[0].nodeValue + "<br />");
+                        }
+                    }
+
+                    raspuns = xmlDoc.getElementsByTagName("Corect")[indice].childNodes[0].nodeValue;
+
+                    formular += "</div></form><p id=\"test\"></p>";
+                    document.getElementById("incarcaTest").innerHTML = "";
+                    document.getElementById("continutTest").innerHTML = formular;
+                    //nrIntrebare++;
+                }
+                else {
+                    // afisare scor
+                    document.getElementById("continutTest").innerHTML = "<div style=\"text-align:center;\">Felicitari! Ai raspuns la " + raspunsuriCorecte + " din " + x.length + " intrebari.</div>";
+                    // afisare raspunsuri
+                    console.log(raspunsuri);
+                    var temp = "<br><br>";
+                    for(i=0; i<nrIntrebare; i++){
+                        if(xmlDoc.getElementsByTagName("Corect")[i].childNodes[0].nodeValue == raspunsuri[i]){
+                            temp += "<div style=\"background-color:#66ff66;\">Raspuns corect <br>"; 
+                        }
+                        else {
+                            temp += "<div style=\"background-color:#ff6666;\"> Raspuns gresit <br>"; 
+                        }
+                        temp += "<label style>" + xmlDoc.getElementsByTagName("textIntrebare")[i].childNodes[0].nodeValue + "</label><br>";
+                        if(xmlDoc.getElementsByTagName("tipElement")[4*i+raspunsuri[i]-1].childNodes[0].nodeValue == "imagine"){
+                            temp += "<label style> Raspuns: <br>" + "<img style=\"width:16em\" src=\"imagini\\" + xmlDoc.getElementsByTagName("element")[4*i+raspunsuri[i]-1].childNodes[0].nodeValue + "\"></label><br>";
+                        }
+                        else{
+                            temp += "<label style> Raspuns: " + xmlDoc.getElementsByTagName("element")[4*i+raspunsuri[i]-1].childNodes[0].nodeValue + "</label><br>";
+                        }
+                        if(xmlDoc.getElementsByTagName("Corect")[i].childNodes[0].nodeValue != raspunsuri[i]){
+                            var variantaCorecta = xmlDoc.getElementsByTagName("Corect")[i].childNodes[0].nodeValue;
+                            console.log(4*i+parseInt(variantaCorecta));
+                            if(xmlDoc.getElementsByTagName("tipElement")[4*i+parseInt(variantaCorecta)-1].childNodes[0].nodeValue == "imagine"){
+                                temp += "<label style> Varianta corecta: <br>" + "<img style=\"width:16em\" src=\"imagini\\" + xmlDoc.getElementsByTagName("element")[4*i+parseInt(variantaCorecta)-1].childNodes[0].nodeValue + "\"></label>";
+                            }
+                            else{
+                                temp += "<label style> Varianta corecta: " + xmlDoc.getElementsByTagName("element")[4*i+parseInt(variantaCorecta)-1].childNodes[0].nodeValue + "</label>";
+                            }
+                        }
+                        temp += "</div><br>";
+                    }
+                    document.getElementById("afisareRezultateCorecte").innerHTML = temp;
+                }
+            }
+
+            //verifica daca intrebarea este corecta
+            function validare(varianta){
+                raspunsuri.push(varianta);
+                if( varianta == raspuns) raspunsuriCorecte ++;
+                nrIntrebare++;
+                intrebare(xmlHTTP, nrIntrebare);
+
+            }
+
+            function fileChooser(){
+                $("input").trigger("click");
+                nrIntrebare = 0;
+                raspunsuriCorecte = 0;
+                loadXML();
+            }
+        </script>
+
+
+        <div class="titlu">
+            <h1><a href="teste.html">Invata Geografia Usor!!</a></h1>
+            <p>Incepe testul</p>
+        </div>     
+
+        <div class="centru" >
+            <div id="incarcaTest">
+                <input class="centru" id="fileChooser" type="file" style="display: none" />
+                <button >Alege un test</button>
+            </div>
+
+            <div id="continutTest">
+
+            </div>
+
+            <div id="afisareRezultateCorecte">
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+        <script>
+
+            $("button").on("click", function() {
+                $("input").trigger("click");
+                //console.log(document.getElementById("fileChooser").value);
+
+                nrIntrebare = 0;
+                raspunsuriCorecte = 0;
+                loadXML();
+            });
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test>
+    <Intrebare nr="1" categorie="Geografie">
+        <imagine>clima.jpg</imagine>
+        <textIntrebare>Romania are clima:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Temperat rece</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Temperat-maritimă</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Mediteraneană</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Temperat-continentală</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+    <Intrebare nr="2" categorie="Geografie">
+        <imagine>Subcarpatii.jpg</imagine>
+        <textIntrebare>Subcarpatii se desfasoara:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>La exteriorul arcului carpatic</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>La interiorul arcului carpatic</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Ambele variante de mai sus</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>nicio variantă</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="3" categorie="Geografie">
+        <imagine>Cum_se_numesc_monumentele_naturii_din_Muntii_Bucegi.jpg</imagine>
+        <textIntrebare>Cum se numesc monumentele naturii din Muntii Bucegi?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Sfinxul Banatean</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Babele si Sfinxul</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Coloanele de Bazalt de la Racos</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Rapa Neagra</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="4" categorie="Geografie">
+        <imagine>Principalele_forme_de_relief_ale_Deltei_sunt.jpg</imagine>
+        <textIntrebare>Care sunt principalele forme de relief ale Deltei?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Grindurile(Mică ridicătură de teren de formă alungită din mijlocul apelor curgătoare sau ale mării, care rezultă din depuneri aluvionare)</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Muntii</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Campiile</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Podisurile</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+
+    <Intrebare nr="5" categorie="Geografie">
+        <imagine>Tipul_de_relief_intalnit_in_Muntii_Apuseni.jpg</imagine>
+        <textIntrebare>Tipul de relief intalnit in Muntii Apuseni sunt</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Piemontan</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Structural</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Vulcanic</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Carstic</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+    <Intrebare nr="6" categorie="Geografie">
+        <imagine>Ce_tipuri_de_influente_climatice_se_gasesc_in_Nordul_Carpatilor_Orientali.JPG</imagine>
+        <textIntrebare>Ce tipuri de influente climatice se gasesc in Nordul Carpatilor Orientali?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Pontice</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>De ariditate</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Oceanice</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Scandinavo-Baltice</element>
+        </Raspuns4>
+        <Corect>4</Corect>
+    </Intrebare>
+
+    <Intrebare nr="7" categorie="Geografie">
+        <imagine>Sunt_tipuri_de_vanturi_urmatoarele.jpg</imagine>
+        <textIntrebare>Care din următoarele sunt tipuri de vânturi?</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>crivăţul, precipitaţiile, brizele</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>crivăţul, brizele, austrul, vânturile de vest</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>brizele, vânturile de vest, ninsoarea</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>precipitaţiile, austrul, brizele</element>
+        </Raspuns4>
+        <Corect>2</Corect>
+    </Intrebare>
+
+    <Intrebare nr="8" categorie="Geografie">
+        <imagine>Somesul_Crisurile_si_Muresul_sunt_in.jpg</imagine>
+        <textIntrebare>Someşul, Crişurile şi Mureşul sunt în:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Sudul şi centrul ţării</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Estul ţării</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Vestul şi centrul ţării</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Nordul şi centrul ţării</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="9" categorie="Geografie">
+        <imagine>Campia_Baraganului_sau_Baraganul_este_partea_estica.png</imagine>
+        <textIntrebare>Câmpia Bărăganului sau Bărăganul este partea estică a:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>Câmpiei de Vest</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>Câmpiei Moldovei</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>Câmpiei Române </element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>Luncii Dunării</element>
+        </Raspuns4>
+        <Corect>3</Corect>
+    </Intrebare>
+
+    <Intrebare nr="10" categorie="Geografie">
+        <imagine>Vietuitoarele_din_Delta_Dunarii.jpg</imagine>
+        <textIntrebare>Vieţuitoarele din Delta Dunării sunt:</textIntrebare>
+        <Raspuns1>
+            <tipElement>text</tipElement>
+            <element>pescăruşii, raţele, câinele enot, mistreţul, pelicanii</element>
+        </Raspuns1>
+        <Raspuns2>
+            <tipElement>text</tipElement>
+            <element>lupul, vulpea, ursul, râsul</element>
+        </Raspuns2>
+        <Raspuns3>
+            <tipElement>text</tipElement>
+            <element>caii, boii, oile, vacile, caprele</element>
+        </Raspuns3>
+        <Raspuns4>
+            <tipElement>text</tipElement>
+            <element>şoarecele de câmp, iepurele, fazanul, vulpea</element>
+        </Raspuns4>
+        <Corect>1</Corect>
+    </Intrebare>
+</Test>
