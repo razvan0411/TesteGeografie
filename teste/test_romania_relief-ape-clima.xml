@@ -134,7 +134,7 @@
 
     <Intrebare nr="7" categorie="Geografie">
         <imagine>Sunt_tipuri_de_vanturi_urmatoarele.jpg</imagine>
-        <textIntrebare>Care din următoarele sunt tipuri de vânturi?</textIntrebare>
+        <textIntrebare>Care din următoarele sunt denumiri de vânturi?</textIntrebare>
         <Raspuns1>
             <tipElement>text</tipElement>
             <element>crivăţul, precipitaţiile, brizele</element>
