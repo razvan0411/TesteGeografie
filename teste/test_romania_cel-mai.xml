@@ -5,7 +5,7 @@
         <textIntrebare>Vecinii României sunt:</textIntrebare>
         <Raspuns1>
             <tipElement>text</tipElement>
-            <element>Ucraina (N); Rep. Moldova (E); Bulgaria (S); Serbia (SV); Ungaria (NV).</element>
+            <element>Ucraina (N, E); Rep. Moldova (E); Bulgaria (S); Serbia (SV); Ungaria (NV).</element>
         </Raspuns1>
         <Raspuns2>
             <tipElement>text</tipElement>
