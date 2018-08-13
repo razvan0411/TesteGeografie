@@ -178,7 +178,7 @@
 
     <Intrebare nr="9" categorie="Geografie">
         <imagine>Cel_mai_mare_lac_glaciar_din_Romania.jpg</imagine>
-        <textIntrebare>Cel mai mare lac glaciar din Romania?</textIntrebare>
+        <textIntrebare>Cel mai întins lac glaciar din Romania?</textIntrebare>
         <Raspuns1>
             <tipElement>text</tipElement>
             <element>Lacul Iezer</element>
