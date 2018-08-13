@@ -91,7 +91,7 @@
 
     <Intrebare nr="5" categorie="Geografie">
         <imagine>desertul_sahara.PNG</imagine>
-        <textIntrebare>Cel mai întins deșert non-polar de pe glob este:</textIntrebare>
+        <textIntrebare>Cel mai întins deșert de pe glob este:</textIntrebare>
         <Raspuns1>
             <tipElement>text</tipElement>
             <element>Gobi</element>
