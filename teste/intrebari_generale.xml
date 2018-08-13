@@ -24,7 +24,7 @@
 
     <Intrebare nr="2" categorie="Geografie">
         <imagine />
-        <textIntrebare>Care este cea mai mica tara din lume?</textIntrebare>
+        <textIntrebare>Care este cea mai mica tara din lume ca suprafata?</textIntrebare>
         <Raspuns1>
             <tipElement>text</tipElement>
             <element>Monaco</element>
