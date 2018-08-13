@@ -10,14 +10,14 @@
 
         <script>
             var xmlHTTP = new XMLHttpRequest();
-            function loadXML(){
+            function loadXML(test){
                 //var xmlHTTP = new XMLHttpRequest();
                 xmlHTTP.onreadystatechange = function(){
                     if(this.readyState == 4 && this.status == 200)
                         intrebare(this, nrIntrebare);
                 }
                 //xmlHTTP.open("GET", "Intrebari.xml", true);
-                xmlHTTP.open("GET", "teste//" + document.getElementById('fileChooser').value.split('\\').pop(), true);
+                xmlHTTP.open("GET", "teste//" + test, true);
                 xmlHTTP.send();
 
             }
@@ -54,7 +54,7 @@
                     raspuns = xmlDoc.getElementsByTagName("Corect")[indice].childNodes[0].nodeValue;
 
                     formular += "</div></form><p id=\"test\"></p>";
-                    document.getElementById("incarcaTest").innerHTML = "";
+                    document.getElementById("home").innerHTML = null;
                     document.getElementById("continutTest").innerHTML = formular;
                     //nrIntrebare++;
                 }
@@ -103,24 +103,41 @@
 
             }
 
-            function fileChooser(){
-                $("input").trigger("click");
+            function startTest(numeTest) {
                 nrIntrebare = 0;
                 raspunsuriCorecte = 0;
-                loadXML();
+                loadXML(numeTest);
             }
+            
         </script>
 
 
         <div class="titlu">
-            <h1><a href="teste.html">Invata Geografia Usor!!</a></h1>
-            <p>Incepe testul</p>
+            <h1>Teste Geografia!!</h1>
+            <p>Cat de bine stii geografie?</p>
         </div>     
 
         <div class="centru" >
-            <div id="incarcaTest">
-                <input class="centru" id="fileChooser" type="file" style="display: none" />
-                <button >Alege un test</button>
+
+            <!-- meniu -->
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Teste</a>
+                    <div class="dropdown-content">
+                        <a onclick="startTest('intrebari_generale.xml')">Intrebari generale</a>
+                        <a onclick="startTest('test_lume.xml')">Despre lume</a>
+                        <a onclick="startTest('test_romania_cel-mai.xml')">Romania - cel mai ...</a>
+                        <a onclick="startTest('test_romania_relief-ape-clima.xml')">Romania - relief, ape, clima</a>
+                        <a onclick="startTest('test_romania_amenajari.xml')">Romania - amenajari</a>
+                    </div>
+                </div> 
+            </div>
+            <!-- end meniu -->
+            <div id="home">
+            <p> &emsp; &emsp; Hai sa vedem cat de bun esti la geografie!<br> &emsp; &emsp; Alege unul din testele din meniu, raspunde la intrebari si la final vezi cat de bun esti!</p>
+                <img src="map-3120436_1920.jpg" style="resize: horizontal; width: 35em; margin-left: auto; margin-right: auto; display: block;">
+                <br>
             </div>
 
             <div id="continutTest">
@@ -134,18 +151,6 @@
 
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 
-        <script>
-
-            $("button").on("click", function() {
-                $("input").trigger("click");
-                //console.log(document.getElementById("fileChooser").value);
-
-                nrIntrebare = 0;
-                raspunsuriCorecte = 0;
-                loadXML();
-            });
-
-        </script>
 
     </body>
 </html>
