@@ -174,12 +174,12 @@
             <tipElement>text</tipElement>
             <element>Brazilia</element>
         </Raspuns4>
-        <Corect>2</Corect>
+        <Corect>3</Corect>
     </Intrebare>
 
     <Intrebare nr="9" categorie="Geografie">
         <imagine>insula.jpg</imagine>
-        <textIntrebare>Care este cea mai mare insulă din lume?</textIntrebare>
+        <textIntrebare>Care este cea mai mare insulă ca suprafață din lume?</textIntrebare>
         <Raspuns1>
             <tipElement>text</tipElement>
             <element>Groenlanda</element>
