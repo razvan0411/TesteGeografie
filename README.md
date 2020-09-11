@@ -2,7 +2,7 @@
 
 Tot ce trebuie sa faceti este sa accesati link-ul de mai jos
 
-https://riri0411.github.io/TesteGeografie/
+https://razvan0411.github.io/TesteGeografie/
 
 Site este destinat utilizarii in scop educational, elevilor de gimnaziu, si nu numai, pentru a invata geografie. Este free.
 
